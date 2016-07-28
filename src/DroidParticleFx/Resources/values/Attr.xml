@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<resources>
+	<declare-styleable name="ParticleSystemView">
+	    <attr name="maxParticles" format="integer" />
+	    <attr name="timeToLive" format="integer" />
+		<attr name="particleDrawable" format="integer" />
+	</declare-styleable>
+</resources>
