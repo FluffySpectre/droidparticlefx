@@ -58,6 +58,10 @@ namespace DroidParticleFx {
 			}
 		}
 
+		public void SetParticleDrawable(Drawable particleDrawable) { 
+			BuildParticlePool(particleDrawable);
+		}
+
 		public void SetRandomColors(List<Color> colors) {
 			AddInitializer(new RandomColorInitializer(colors));
 		}
